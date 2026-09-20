@@ -1,11 +1,4 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
+// in this code, you can bring a list of numbers and get finally another list but ordered.
 #include <bits/stdc++.h>
 #include <math.h>
 using namespace std;
