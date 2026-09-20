@@ -1,3 +1,5 @@
+// I made this code in high school for a microcontroller, it counts 1 by 1 up to 99 with 2 displays, one of anode common and the,
+//other one of cathode common, using transistors and etc, on a pcb.
 #include <16f873.h>
 #fuses   xt, nolvp, nowdt
 #use  delay(clock=4000000)
