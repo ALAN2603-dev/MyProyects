@@ -1,0 +1,57 @@
+#include <16f873.h>
+#fuses   xt, nolvp, nowdt
+#use  delay(clock=4000000)
+#byte porta=5
+#byte portb=6
+#byte portc=7
+
+void main()
+{
+int x=0,y=0,z=0;
+int jhonson[4]={0x81,0x42,0x24,0x18};
+int dec[9]={0x91,0x82,0x73,0x64,0x55,0x46,0x37,0x28,0x19};
+int hex[15]={0xf1,0xe2,0xd3,0xc4,0xb5,0xa6,0x97,0x88,0x79,0x6a,0x5b,0x4c,0x3d,0x2e,0x1f};
+
+set_tris_a(0xff);
+set_tris_b(0x00);
+
+   while(true)
+   {
+      if (input(pin_a0))
+      {
+            for(x=0;x<=3;x++)
+            {
+            portb=jhonson[x];
+            delay_ms(500);
+            }
+            X=0;
+      }
+         else
+            portb=0x00;
+
+      if (input(pin_a1))
+      {
+         for (y=0;y<=8;y++)
+         {
+            portb=dec[y];
+               delay_ms(500);
+         }
+            y=0;
+      }
+         else
+            portb=0x00;
+
+      if (input(pin_a2))
+      {
+         for (z=0;z<=14;z++)
+         {
+            portb=hex[z];
+               delay_ms(500);
+         }
+            z=0;
+      }
+         else
+            portb=0x00;
+   }
+
+}
