@@ -1,3 +1,4 @@
+//This code works with a microcontroller, it does start to counting in diferent languages, binary , hex, and jhonson type(it can see with leds)
 #include <16f873.h>
 #fuses   xt, nolvp, nowdt
 #use  delay(clock=4000000)
