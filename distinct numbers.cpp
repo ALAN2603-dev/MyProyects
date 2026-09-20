@@ -1,17 +1,9 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
+// This code works for know  how many differents numbers there are in a list ordered or disordered
 #include <bits/stdc++.h>
 
 using namespace std;
 
 int main() {
-    // Optimización de entrada/salida estándar para evitar penalizaciones de tiempo
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
