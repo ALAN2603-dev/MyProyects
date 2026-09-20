@@ -1,3 +1,4 @@
+//This code works with a circuit of a microcontoller, and its a representation of how works the traffic lights with a button for the people to cross the boulevard
 #include <16f873.h>
 #fuses xt, nolvp, nowdt
 #use  delay(clock=4000000)
