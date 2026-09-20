@@ -1,3 +1,4 @@
+// This code is usefull when you have 2 lists ordered, and you want to fusion in only  1  (the 2 list have to be ordered too)
 #include <bits/stdc++.h>
 using namespace std;
 
